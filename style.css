@@ -1,0 +1,50 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    width: 960px;
+    margin: auto;
+}
+.navbar{
+    background-color: orange;
+}
+.navbar ul{
+    list-style: none;
+    text-align: center;
+}
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: darkblue;
+}
+.navbar ul li a:hover{
+    background-color: orchid;
+    color: white;
+}
+.navbar ul ul{
+    position: absolute;
+    background-color: palegoldenrod;
+    left: 9999px;
+    top: 39px;
+}
+.navbar ul ul li{
+    width: 220px;
+}
+.navbar ul ul li a{}
+
+
+.navbar ul li:hover ul{
+        left: 0;
+}
